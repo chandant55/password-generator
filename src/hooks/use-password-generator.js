@@ -11,7 +11,7 @@ const usePasswordGenerator = () => {
     const selectedOption = checkboxData.filter((checkbox) => checkbox.state);
 
     if (selectedOption.length === 0) {
-      setErrorMessage("Select at least on option Kal");
+      setErrorMessage("Select at least one option Ritu");
       setPassword("");
       return;
     }
